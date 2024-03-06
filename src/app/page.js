@@ -3,7 +3,7 @@ export default async function Home() {
 
   return (
     <main>
-      <h1>Home</h1>
+       <span class="d-block p-2 bg-dark text-white">Home</span>
     </main>
   )
 }

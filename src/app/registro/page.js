@@ -1,4 +1,5 @@
 export default function Registrar(){
-    return( <h1>Página de Registro!</h1>
+    return( 
+        <span class="d-block p-2 bg-dark text-white">Página de Registro!</span>
     );
 }
