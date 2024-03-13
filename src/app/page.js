@@ -1,9 +1,21 @@
+const url = "http://localhost:3000/api";
 
 export default async function Home() {
 
+  // fetch faz as requisições
+  const resposta = await fetch(url,{
+    
+  });
+  const campus = await resposta.json();
+ 
   return (
     <main>
-       <span class="d-block p-2 bg-dark text-white">Home</span>
+      <h1>Home</h1>
+      {campus.map((campi) =>
+        <div>
+             <p>{campi.nome_campi}</p>
+        </div>
+      )}
     </main>
   )
 }
