@@ -4,7 +4,9 @@ const nextConfig = {
     images: {
         domains:[
             "www.ifms.edu.br", 
-            "yt3.googleusercontent.com"
+            "yt3.googleusercontent.com",
+            "raleduc.com.br"
+
         ]
     }
 

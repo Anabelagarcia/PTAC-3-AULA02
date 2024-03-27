@@ -3,14 +3,20 @@ import Image from "next/image";
 
 export default function Footer () {
     return(
-        <footer>
+        <footer style={{backgroundColor:"#F98012"}}>
+            
+
+        <div class="container text-center">
+            <div class="row align-items-center">
+            <div class="col">
             <Link href= "https://ead.ifms.edu.br/">
             <Image
-                width={100}
-                height={100}
-                src={"https://www.ifms.edu.br/acesso-a-sistemas/imagens/moodle/@@images/image/preview"} /></Link> 
-
-            <span class="d-block p-2 bg-primary text-white">Footer</span>
+                width={500}
+                height={300}
+                src={"https://raleduc.com.br/wp-content/uploads/2018/11/Moodle_july27-1.png"} /></Link> 
+            </div>
+            </div>
+            </div>
             </footer>
        
        
