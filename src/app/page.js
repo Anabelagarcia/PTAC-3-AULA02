@@ -11,7 +11,7 @@ export default async function Home() {
   const campi = await resposta.json();
  
   return (
-    <main>
+    <main className="text-center">
       <span class="d-block p-2 bg-dark text-white">Home</span>  
       {campi.map((campus) =>
         <div>
